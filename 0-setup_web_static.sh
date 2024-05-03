@@ -11,6 +11,7 @@ sudo echo "
 <title> HTML Template example</title>
 </head>
 <body>
+	Holberton School
 </body>
 </html>
 " | sudo tee /data/web_static/releases/test/index.html
