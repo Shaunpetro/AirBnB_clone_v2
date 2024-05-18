@@ -1,24 +1,27 @@
 #!/usr/bin/python3
-"""starts a flusk web app"""
-from flask import Flusk
+"""Starts a Flask web application.
 
-app = Flusk(__name__)
+The application listens on 0.0.0.0, port 5000.
+Routes:
+    /: Displays 'Hello HBNB!'.
+    /hbnb: Displays 'HBNB'.
+"""
+from flask import Flask
 
-
-@app.route('/', strict_slashes=False)
-def home():
-    """
-
-    """
-    return 'Hello HBNB!'
+app = Flask(__name__)
 
 
-@app.route('/hbnb/', strict_slashes=False)
+@app.route("/", strict_slashes=False)
+def hello_hbnb():
+    """Displays 'Hello HBNB!'."""
+    return "Hello HBNB!"
+
+
+@app.route("/hbnb", strict_slashes=False)
 def hbnb():
-    """
-    """
-    return 'Hello HBNB!'
+    """Displays 'HBNB'."""
+    return "HBNB"
 
 
-if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+if __name__ == "__main__":
+    app.run(host="0.0.0.0")
