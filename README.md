@@ -1,14 +1,14 @@
-<<<<<<< HEAD
+<<<<<<< HEAD 
 ##AirBnB_clone_v2
 
-##AirBnB_clone_v3
-####Tasks By ### Petro Malamule
+## AirBnB_clone_v3
+#### Tasks By ### Petro Malamule
 ##### 
 ##### 
 ##### 
 ##### 
 
-####Tasks By ### Clinton Boniface
+#### Tasks By ### Clinton Boniface
 ##### 
 ##### 
 ##### 
